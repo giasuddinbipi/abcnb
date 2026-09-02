@@ -25,7 +25,7 @@ export default function Header() {
       <div className="container header-inner">
         <Link href="/" className="brand" aria-label="abcNB home" onClick={() => setOpen(false)}>
           <span className="brand-logo-wrap">
-            <Image src="/logo.jpg" alt="abcNB — A Brand Called No Brand" width={138} height={92} priority />
+            <Image src="/logo.png" alt="abcNB — A Brand Called No Brand" width={380} height={152} priority />
           </span>
         </Link>
 
